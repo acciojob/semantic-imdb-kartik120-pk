@@ -1,112 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inception - Movie Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-        nav {
-            background-color: #444;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 10px 20px;
-            margin: 0 15px;
-            font-size: 18px;
-        }
-        nav a:hover {
-            background-color: #666;
-        }
-        section {
-            padding: 20px;
-            margin: 10px;
-            background-color: white;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        aside {
-            background-color: #e9e9e9;
-            padding: 10px;
-            margin: 20px 0;
-            border-radius: 5px;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 15px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-        .container {
-            width: 80%;
-            margin: 0 auto;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie IMDb</title>
 </head>
 <body>
+  <header>
+    <h1>Inception</h1>
+  </header>
 
-    <header>
-        <h1>Inception</h1>
-    </header>
+  <nav>
+    <ul>
+      <li><a href="#actor" id="nav-actor">Actors</a></li>
+      <li><a href="#quote" id="nav-quote">Quotes</a></li>
+    </ul>
+  </nav>
 
-    <nav>
-        <a href="#actor" id="nav-actor">Actors</a>
-        <a href="#quote" id="nav-quote">Quotes</a>
-    </nav>
+  <section id="summary">
+    <h2>Movie Summary</h2>
+    <p>
+      Inception is a science fiction thriller about a thief who enters the subconscious minds of his targets to steal secrets. The story revolves around Cobb, who is tasked with implanting an idea into the mind of a target, a process known as inception. Throughout the film, Cobb faces personal demons and struggles with his own memories.
+    </p>
+  </section>
 
-    <div class="container">
+  <section id="actor">
+    <h2>Actors</h2>
+    <p>Leonardo DiCaprio as Dom Cobb</p>
+    <p>Joseph Gordon-Levitt as Arthur</p>
+    <p>Ellen Page as Ariadne</p>
+  </section>
 
-        <section>
-            <h2>Summary</h2>
-            <p>
-                Inception (2010), directed by Christopher Nolan, is a science fiction heist thriller about a group of thieves who specialize in entering people's dreams to steal secrets from their subconscious. The story follows Dom Cobb, a thief with the rare ability to perform "extraction," the stealing of information by entering a target's dream. Cobb is offered a chance to have his past crimes erased if he can successfully perform "inception," planting an idea in someone's mind without them realizing it. As the mission becomes more complex, Cobb's own memories and guilt begin to blur the line between dream and reality.
-            </p>
-        </section>
+  <section id="quote">
+    <h2>Favorite Quote</h2>
+    <blockquote>
+      "You mustn't be afraid to dream a little bigger, darling." - Eames
+    </blockquote>
+  </section>
 
-        <section id="actor">
-            <h2>Actors</h2>
-            <ul>
-                <li><strong>Leonardo DiCaprio</strong> as Dom Cobb</li>
-                <li><strong>Joseph Gordon-Levitt</strong> as Arthur</li>
-                <li><strong>Elliot Page</strong> as Ariadne</li>
-                <li><strong>Tom Hardy</strong> as Eames</li>
-                <li><strong>Ken Watanabe</strong> as Saito</li>
-            </ul>
-        </section>
+  <aside>
+    <p>IMDb Rating: 8.8/10</p>
+    <p>Release Date: July 16, 2010</p>
+  </aside>
 
-        <section id="quote">
-            <h2>Favorite Quote</h2>
-            <p><i>"You mustn't be afraid to dream a little bigger, darling."</i> - Eames</p>
-        </section>
-
-        <aside>
-            <h3>IMDb Rating and Release Date</h3>
-            <p><strong>IMDb Rating:</strong> 8.8/10</p>
-            <p><strong>Release Date:</strong> July 16, 2010</p>
-        </aside>
-
-    </div>
-
-    <footer>
-        <p>Produced by: Christopher Nolan</p>
-    </footer>
-
+  <footer>
+    <p>Produced by: Christopher Nolan</p>
+  </footer>
 </body>
 </html>
